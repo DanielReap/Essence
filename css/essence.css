@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+html,
+body {
+    overflow-x: hidden;
+    font-weight: 100;
+}
+body {
+    padding-top: 70px;
+}
+footer{
+    margin-top: 20px;
+    padding-top: 30px;
+    float: inherit;
+}
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+.color-white{
+    color: #fff;
+    border-color: #fff;
+}
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #292b2c;
+    border-color: #292b2c;
+    font-weight: 100;
+}
+
+.list-group-item.active .list-group-item-heading,
+.list-group-item.active .list-group-item-heading > small,
+.list-group-item.active .list-group-item-heading > .small {
+    color: inherit;
+}
+
+.list-group-item.active .list-group-item-text {
+    color: #daeeff;
+    font-weight: 100;
+}
+.btn-most-recent {
+    color: #fff;
+    background-color: #292b2c;
+    border-color: #292b2c;
+    font-weight: 100;
+}
+
+.btn-most-recent:hover {
+    color: #fff;
+    background-color: #191A1A;
+    border-color: #191A1A;
+}
+
+.btn-most-recent:focus, .btn-most-recent.focus {
+    -webkit-box-shadow: 0 0 0 2px rgba(41, 43, 44, 1);
+            box-shadow: 0 0 0 2px rgba(41, 43, 44, 1);
+}
+
+.btn-most-recent.disabled, .btn-most-recent:disabled {
+    background-color: #292b2c;
+    border-color: #292b2c;
+}
+
+.btn-most-recent:active, .btn-most-recent.active,
+.show > .btn-most-recent.dropdown-toggle {
+    color: #fff;
+    background-color: #191A1A;
+    background-image: none;
+    border-color: #191A1A;
+}
+.btn-grey {
+    color: #fff;
+    background-image: none;
+    background-color: transparent;
+    border-color: #fff;
+    font-weight: 100;
+}
+
+.btn-grey:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn-grey:focus, .btn-grey.focus {
+    -webkit-box-shadow: 0 0 0 2px rgba(92, 184, 92, 0.5);
+            box-shadow: 0 0 0 2px rgba(92, 184, 92, 0.5);
+}
+
+.btn-grey.disabled, .btn-grey:disabled {
+  color: #fff;
+  background-color: transparent;
+}
+
+.btn-grey:active, .btn-grey.active,
+.show > .btn-grey.dropdown-toggle {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -100%; /* 12 columns */
+  }
+
+  .row-offcanvas-right.active
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -100%; /* 12 columns */
+  }
+
+  .row-offcanvas-left.active
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
+.forums {
+    width: 100%;
+}
+.forum-item {
+    display: block;
+    height: 60px;
+    text-decoration: none;
+    font-weight: 100;
+}
+.forum-item a {
+    text-decoration: none;
+    font-weight: 100;
+}
+.forum-item a:hover {
+    text-decoration: none;
+}
+.forum-item a:visited {
+    text-decoration: none;
+}
+.forum-info {
+    float: right;
+    font-weight: 100;
+}
+.forum-span {
+    margin-left: 15px;
+}
+.inbox-text {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 25px;
+    font-size: 25px;
+    font-weight: 100;
+}
+.about {
+    padding: 0;
+    font-weight: 100;
+}
+.navbar-light .navbar-text {
+    color: rgba(255, 255, 255, 1);
+}
+.profile-header {
+    border-radius: 3px;
+    height: 105px;
+    font-size: 25px;
+    background: #292b2c;
+    font-weight: 100;
+}
+.profile-pic {
+    width: 75px;
+    height: 75px;
+    vertical-align: middle;
+    margin: 15px;
+}
+.profile-usrname {
+    color: #fff;
+    text-shadow: 0 0 1px #000, 0 0 1px #000;
+    margin-left: -5px;
+    font-weight: 100;
+}
+.profile-about {
+    background: #292b2c;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-weight: 100;
+}
+.profile-btn {
+    border-color: #FFF;
+    color: #292b2c;
+    background: #FFF;
+    font-weight: 100;
+}
+.profile-btn:hover {
+    border-color: #FFF;
+    background: #292b2c;
+    color: #FFF;
+}
+.btn-submit {
+    margin-top: 10px;
+    background-color: #292b2c;
+    border-color: #292b2c;
+    color: #fff;
+    font-weight: 100;
+}
+.forum-submit-header {
+    background-color: #292b2c;
+    color: #fff;
+    height: 50px;
+    border: 1px solid rgba(41, 43, 43, 1);
+    font-weight: 100;
+}
+.new-post {
+    float: right;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+.new-comment {
+    float: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+#forum-title {
+    background-color: #fff;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+#grey-background {
+    background-color: #FAFAFA;
+}
+.segment {
+    border-bottom-width: 1px;
+    border-bottom-color:#E6E6E6;
+    border-bottom-style: solid;
+}
+.com-profile-pic {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+.com-usrname {
+    color: #000;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: none;
+}
+.com-username:link {
+    color: #000;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: none;
+}
+.com-username:hover {
+    color: #000;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: none;
+}
+.com-username:visited {
+    color: #000;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: none;
+}
+.com-descripton {
+    font-weight: 100;
+}
+.btn-like {
+
+}
+.btn-like:hover {
+    transform: scale(1.1);
+}
+.btn-dislike {
+
+}
+.btn-dislike:hover {
+    transform: scale(1.1);
+}
+#edit {
+    border-bottom: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.edit {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+.col-centered{
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.comment-form{
+    background-color: #FAFAFA;
+    border-top-width: 1px;
+    border-top-color: #E6E6E6;
+    border-top-style: solid;
+}
